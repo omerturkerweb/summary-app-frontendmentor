@@ -13,7 +13,15 @@ const icons = {
 
 export default function Sumamry() {
   return (
-    <div className="summary h-full w-[50%] p-8 flex flex-col gap-y-4">
+    <div
+      className="summary h-full w-[50%] p-8 flex flex-col gap-y-4
+    xs:w-[100%] xs:rounded-t-none rounded-b-[35px] xs:shadow-xl
+    sm:w-[100%] sm:rounded-3xl
+    md:w-[100%] md:rounded-3xl
+    lg:w-[50%] lg:rounded-3xl
+    xl:w-[50%] xl:rounded-3xl
+    2xl:w-[50%] 2xl:rounded-3xl"
+    >
       <h3 className="text-[var(--dark-gray-blue)] stats font-semibold text-[24px] ">
         Summary
       </h3>
