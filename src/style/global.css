@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+:root {
+  /* Primary Colors */
+  --reaction-bg: hsla(0, 100%, 67%, 0.15);
+  --memory-bg: hsla(39, 100%, 56%, 0.15);
+  --verbal-bg: hsla(166, 100%, 37%, 0.15);
+  --visual-bg: hsla(234, 85%, 45%, 0.15);
+  --contunie-button-bg: #303b59;
+  /* Primary Text Colors*/
+  --reaction-txt: hsl(0, 100%, 67%);
+  --memory-txt: hsl(39, 100%, 56%);
+  --verbal-txt: hsl(166, 100%, 37%);
+  --visual-txt: hsl(234, 85%, 45%);
+  /*Gradients*/
+  --light-slate-blue-background: hsl(252, 100%, 67%);
+  --light-royal-blue-background: hsl(241, 81%, 54%);
+
+  --violet-blue-circle: hsla(256, 72%, 46%, 1);
+  --persian-blue-circle: hsla(241, 72%, 46%, 0);
+  /*  Neutral */
+  --light-dark: hsla(0, 0%, 0%, 0.318);
+  --white: hsl(0, 0%, 100%);
+  --dark-white: hsla(0, 0%, 100%, 0.734);
+  --light-dark-white: hsla(0, 0%, 100%, 0.733);
+  --paleblue: hsl(221, 100%, 96%);
+  --lightlavender: hsl(241, 100%, 89%);
+  --dark-gray-blue: hsl(224, 30%, 27%);
+}
+body {
+  background-color: var(--paleblue);
+  height: 100vh;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+#root,
+.App {
+  height: 100vh;
+}
+.bg-reaction {
+  background-color: var(--reaction-bg);
+}
+.bg-reaction .category-name {
+  color: var(--reaction-txt);
+}
+.bg-memory {
+  background-color: var(--memory-bg);
+}
+.bg-memory .category-name {
+  color: var(--memory-txt);
+}
+.bg-verbal {
+  background-color: var(--verbal-bg);
+}
+.bg-verbal .category-name {
+  color: var(--verbal-txt);
+}
+.bg-visual {
+  background-color: var(--visual-bg);
+}
+.bg-visual .category-name {
+  color: var(--visual-txt);
+}
